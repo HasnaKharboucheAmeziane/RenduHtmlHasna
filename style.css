@@ -23,9 +23,7 @@ header {
   list-style: none;
   display: flex;
   justify-content: space-around;
-  d
 }
-
 #nav {
   display: flex;
   justify-content: space-around;
