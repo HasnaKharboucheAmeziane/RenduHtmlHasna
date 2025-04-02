@@ -9,7 +9,9 @@ body {
   border: #e0dce1;
   background-color: rgb(142, 77, 166);
   border-radius: 20%;
-  padding: 10%;
+  padding: 20%;
+  padding-left: 30%;
+  padding-right: 30%;
   font-size: 150%;
 }
 
@@ -41,6 +43,7 @@ header {
 #headerPresentation {
   color: #e0dce1;
   font-weight: 100;
+  text-align: center;
 }
 
 #logo {
