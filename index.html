@@ -25,9 +25,13 @@ Ajouter des citations plus stylées. -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Hasna Kharbouche">
 
-    <link rel="stylesheet" href="/RenduHtml/style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Hasna Kharbouche</title>
 </head>
@@ -36,13 +40,35 @@ Ajouter des citations plus stylées. -->
 
     <!-------------------------------- HEADER ----------------------------------->
    <header>
-<h1>Hasna KHARBOUCHE</h1>
-<cite>Seul on va plus vite, ensemble on va plus loin.</cite>
-<p>Issue d'une fratrie de 5 enfants, le travail en groupe est naturel chez moi.</p>
+
+
+<section id="nav">
+
+    <a href="/index.html"><img id="logo" src="/assets/logo.png" alt="logo Hasna Kharbouche" /></a>
+
+    <section id="headerPresentation">
+        <center>
+            <h1>Hasna KHARBOUCHE</h1>
+            <cite>Seul on va plus vite, ensemble on va plus loin.</cite>
+            <p>Issue d'une fratrie de 5 enfants, le travail en groupe est naturel chez moi.</p>
+            </center>
+        </section>
+
+<nav>
+    <ul class="listNone">
+        <!-- <li><a class="a" href="/savoirPlus.html">En savoir plus</a></li> -->
+        <li><a class="a" href="/contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+</section>
    </header> 
 <!-- ----------------------------------MAIN----------------------------------- -->
 <main>
 
+    <img id="photoProfil"  src="/assets/photoProfil.png" alt="photo profil Hasna">
+
+<section id="sectionPresentation">
     <section>
     <h2>Présentation générale</h2>
     <ul>
@@ -63,18 +89,18 @@ Ajouter des citations plus stylées. -->
         </ul>
     </section>
     <section>
-    <h2>Parcours professionnel ou académique</h2>
+    <h2>Parcours professionnel et académique</h2>
 
     <ol>
         <li>BAC STT</li>
-        <li>Niveau Deug Psychologie</li>
+        <li>Niveau Deug Sociologie option psychologie</li>
         <li>Plus de 10 ans en laboratoire (ABM)</li>
-        <li>Formation Développemnt web</li>
+        <li>Formation Développement web</li>
     </ol>
 </section>
 
 <section>
-<h2>Compétences ou informations supplémentaires</h2>
+<h2>Compétences supplémentaires</h2>
 <section>
 <table>
     <tr>
@@ -88,28 +114,39 @@ Ajouter des citations plus stylées. -->
         <td>Résiliente</td>
       </tr>
       <tr>
+        <td>Css</td>
+        <td>Arabe</td>
+        <td>Persévérante</td>
+      </tr>
+      <tr>
 </table>
 </section>
 </section>
 
-    <figure>
-        <img id="photoAbeille"  src="/photoAbeille.jpg" alt="photo abeille">
-        <figcaption>Une jolie abeille</figcaption>
-    </figure>
 
-<cite>Rien ne sert de courir, tout arrive à point.</cite>
+<h2>Loisirs</h2>
+<section id="loisir">
+    <figure>
+        <img id="photoMontagne"  src="/assets/montagne.jpg" alt="photo de la corée">
+       <figcaption>Me ressourcer en pleine air!</figcaption>
+    </figure>
+</section>
+
+
+
 <!-- ----------------------------------FOOTER---------------------------------- -->
 
 <footer>
+    <section id="textFooter">
+        <cite>"Il n'y a pas de situation desespérée, il n'y a que des gens qui désespèrent de la situation." Victor Hugo</cite>
 <h3>Hasna Kharbouche</h3>
-<a href="https://www.linkedin.com/in/hasnakharbouche/">Linkedin</a>
+<a id="linkedin" href="https://www.linkedin.com/in/hasnakharbouche/">Linkedin</a>
 
 <aside>Disponible</aside>
+</section>
 </footer>
 
-
-
-</body>
+<script src="/script.js"></script>
 
 
 <!------------------------------------FIN BODY--------------------------------- -->
