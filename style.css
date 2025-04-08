@@ -69,13 +69,11 @@ main {
 }
 
 table {
-  border: solid 3px;
-  display: inline-table;
-  border-width: 1px;
+  border: solid 1px;
   border-collapse: collapse;
 }
 
-#colonne {
+.colonne {
   border: solid 1px;
 }
 

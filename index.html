@@ -26,7 +26,7 @@ Ajouter des citations plus stylées. -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Hasna Kharbouche">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="./style.css">
 
 
     <title>Hasna Kharbouche</title>
@@ -40,7 +40,7 @@ Ajouter des citations plus stylées. -->
 
 <section id="nav">
 
-    <a href="index.html"><img id="logo" src="assets/logo.png" alt="logo Hasna Kharbouche" /></a>
+    <a href="./index.html"><img id="logo" src="./assets/logo.png" alt="logo Hasna Kharbouche" /></a>
 
     <section id="headerPresentation">
             <h1>Hasna KHARBOUCHE</h1>
@@ -51,7 +51,7 @@ Ajouter des citations plus stylées. -->
 <nav>
     <ul class="listNone">
         <!-- <li><a class="a" href="/savoirPlus.html">En savoir plus</a></li> -->
-        <li><a class="a" href="/contact.html">Contact</a></li>
+        <li><a class="a" href="./contact.html">Contact</a></li>
     </ul>
 </nav>
 
@@ -60,7 +60,7 @@ Ajouter des citations plus stylées. -->
 <!-- ---------------------------------------------------------------------------MAIN----------------------------------- -->
 <main>
 
-    <img id="photoProfil"  src="assets/photoProfil.png" alt="photo profil Hasna">
+    <img id="photoProfil"  src="./assets/photoProfil.png" alt="photo profil Hasna">
 
 <section id="sectionPresentation">
     <section>
@@ -97,23 +97,29 @@ Ajouter des citations plus stylées. -->
 <section>
 <h2>Compétences supplémentaires</h2>
 <section>
-<table>
-    <tr id="colonne">
-        <th scope="col">Les compétences</th>
-        <th scope="col">Les langues parlées</th>
-        <th scope="col">Les softs kills</th>
-      </tr>
-      <tr >
-        <td scope="row">Html</td>
-        <td scope="row">Anglais courant</td>
-        <td scope="row">Résiliente</td>
-      </tr>
+<table border="1" cellpadding="10">
+    <thead class="colonne">
+        <tr>
+        <th>Les compétences</th>
+        <th>Les langues parlées</th>
+        <th>Les softs kills</th>
+    </tr>
+      </thead>
+
+      <tbody class="colonne">
+        <tr>
+        <td>Html</td>
+        <td>Anglais courant</td>
+        <td>Résiliente</td>
+      
+    </tr>
+
       <tr>
         <td>Css</td>
         <td>Arabe</td>
         <td>Persévérante</td>
       </tr>
-      <tr>
+    </tbody>
 </table>
 </section>
 </section>
@@ -122,7 +128,7 @@ Ajouter des citations plus stylées. -->
 <h2>Loisirs</h2>
 <section id="loisir">
     <figure>
-        <img id="photoMontagne"  src="assets/montagne.jpg" alt="photo de la corée">
+        <img id="photoMontagne"  src="./assets/montagne.jpg" alt="photo montagne">
        <figcaption>Me ressourcer en pleine air!</figcaption>
     </figure>
 </section>
@@ -141,7 +147,8 @@ Ajouter des citations plus stylées. -->
 </section>
 </footer>
 
-<script src="/script.js"></script>
+
+<script src="./script.js"></script>
     
 </body>
 <!---------------------------------------------------------------------------------FIN BODY--------------------------------- -->
