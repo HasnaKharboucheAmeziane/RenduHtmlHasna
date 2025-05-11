@@ -2,6 +2,9 @@ body {
   background: #e0dce1;
   color: #403938;
 }
+header{
+  width: 100%;
+}
 
 .a {
   text-decoration: none;
